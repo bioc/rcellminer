@@ -628,7 +628,7 @@ shinyServer(function(input, output, session) {
     } else if (input$xDataset == "gdsc"){
     	prefixChoices <- c("Expression"="exp", "Drug"="act")
     } else if (input$xDataset == "ccle"){
-    	prefixChoices <- c("Expression"="exp", "Mutations"="mut", "Drug"="act")
+    	prefixChoices <- c("Expression"="exp", "Mutations"="mut", "Copy Number"="cop", "Drug"="act")
     } else{
       prefixChoices <- c("Expression (Z-Score)"="exp", "Expression (Avg. log2 Int.)"="xai",
                          "Mutations"="mut", "Copy Number"="cop", 
@@ -654,7 +654,7 @@ shinyServer(function(input, output, session) {
   	} else if (input$yDataset == "gdsc"){
   		prefixChoices <- c("Expression"="exp", "Drug"="act")
   	} else if (input$yDataset == "ccle"){
-  		prefixChoices <- c("Expression"="exp", "Mutations"="mut", "Drug"="act")
+  		prefixChoices <- c("Expression"="exp", "Mutations"="mut", "Copy Number"="cop", "Drug"="act")
   	} else{
       prefixChoices <- c("Expression (Z-Score)"="exp", "Expression (Avg. log2 Int.)"="xai",
                          "Mutations"="mut", "Copy Number"="cop", 
