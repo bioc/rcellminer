@@ -97,7 +97,7 @@ plotCellMiner(drugAct, molData, plots, nsc, gene)
 
 ### Visualizing Drug Sets 
 
-For related drugs, it is often useful to visualize a summary of drug activity. **rcellminer** allows you to easily plot a drug set's average activity z-score pattern over the NCI-60, together with 1 standard deviation error bars to guauge variation in response behavior.
+For related drugs, it is often useful to visualize a summary of drug activity. **rcellminer** allows you to easily plot a drug set's average activity z-score pattern over the NCI-60, together with 1 standard deviation error bars to gauge variation in response behavior.
 
 ```{r plotDrugSets}
 # Get CellMiner data
